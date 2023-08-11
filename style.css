@@ -1,4 +1,49 @@
 body {
   display: flex;
   flex-direction: column;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.hero.section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* background-color: #1F2937;
+  color: white; */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-links ul{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+
+.hero .container .text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* width: 100px; */
+}
+
+.hero .desc {
+  width: 620px;
 }
