@@ -13,7 +13,7 @@ ul {
 .hero.section {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
   /* background-color: #1F2937;
   color: white; */
 }
@@ -41,6 +41,7 @@ ul {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  gap: 10px;
   /* width: 100px; */
 }
 
