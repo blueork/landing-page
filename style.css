@@ -1,8 +1,10 @@
 body {
   display: flex;
   flex-direction: column;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding: 0;
+  margin: 0;
+  /* padding-left: 200px;
+  padding-right: 200px; */
 }
 
 ul {
@@ -14,8 +16,10 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  /* background-color: #1F2937;
-  color: white; */
+  background-color: #1F2937;
+  color: white;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .header {
@@ -24,10 +28,17 @@ ul {
   justify-content: space-between;
 }
 
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
 .header-links ul{
   display: flex;
   flex-direction: row;
   gap: 25px;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .hero .container {
@@ -45,6 +56,19 @@ ul {
   /* width: 100px; */
 }
 
+.hero.title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
 .hero .desc {
   width: 620px;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero .buttoms {
+  font-size: 18px;
+  color: #E5E7EB;
 }
