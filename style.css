@@ -83,6 +83,12 @@ ul {
   gap: 50px;
 }
 
+.info.section .title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
 .info.section .container {
   display: flex;
   flex-direction: row;
@@ -98,12 +104,12 @@ ul {
 } 
 
 .info-box .info {
-  width: 200px;
+  width: 240px;
 }
 
 .info-box .round-box {
   border-radius: 25px;
-  border: 2px solid #73AD21;
+  border: 2px solid blue;
   padding: 20px;
   width: 200px;
   height: 150px;
