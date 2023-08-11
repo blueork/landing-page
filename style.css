@@ -37,8 +37,6 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 25px;
-  font-size: 18px;
-  color: #E5E7EB;
 }
 
 .hero .container {
@@ -64,11 +62,9 @@ ul {
 
 .hero .desc {
   width: 620px;
-  font-size: 18px;
-  color: #E5E7EB;
 }
 
-.hero .buttoms {
+.hero .buttons, .hero .desc, .header-links ul {
   font-size: 18px;
   color: #E5E7EB;
 }
