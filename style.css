@@ -41,16 +41,17 @@ ul {
   gap: 25px;
 }
 
-.hero .container {
+.hero.section .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   /* flex-wrap: wrap; */
 }
 
-.hero .container .text {
+.hero.section .container .text {
   display: flex;
   flex-direction: column;
+  flex: auto;
   flex-wrap: wrap;
   gap: 10px;
   /* width: 100px; */
@@ -63,7 +64,7 @@ ul {
 }
 
 .hero .desc {
-  width: 620px;
+  max-width: 620px;
 }
 
 .hero .buttons, .hero .desc, .header-links ul {
@@ -118,10 +119,39 @@ ul {
 
 .quote.section {
   display: flex;
+  flex: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-left: 200px;
   padding-right: 200px;
+  padding-top: 50px;
   flex-wrap: wrap;
+  background-color: #E5E7EB;
+  gap: 15px;
+  /* overflow-wrap: break-word; */
+  word-wrap: break-word;
+}
+
+.quote.section .quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  max-width: 900px;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  /* overflow-wrap: break-word; */
+}
+
+.quote.section .quotee {
+  max-width: 900px;
+  /* align-self: flex-end; */
+  /* width: 900px; */
+  /* flex-grow: 1; */
+  text-align: center;
+}
+
+div {
+  word-wrap: break-word;
 }
