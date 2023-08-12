@@ -187,3 +187,21 @@ div {
 .blue-banner .container .title {
   font-weight: bold;
 }
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 20px;
+}
+
+.blue-banner button {
+  border-radius: 25px;
+  border: 2px solid #F9FAF8
+}
