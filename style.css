@@ -9,6 +9,11 @@ body {
   padding-right: 200px; */
 }
 
+.section {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -20,8 +25,8 @@ ul {
   gap: 50px;
   background-color: #1F2937;
   color: white;
-  padding-left: 200px;
-  padding-right: 200px;
+  /* padding-left: 200px;
+  padding-right: 200px; */
 }
 
 .header {
@@ -78,8 +83,8 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  padding-left: 200px;
-  padding-right: 200px;
+  /* padding-left: 200px;
+  padding-right: 200px; */
   padding-top: 50px;
   gap: 50px;
 }
@@ -123,8 +128,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 200px;
-  padding-right: 200px;
+  /* padding-left: 200px;
+  padding-right: 200px; */
   padding-top: 50px;
   flex-wrap: wrap;
   background-color: #E5E7EB;
