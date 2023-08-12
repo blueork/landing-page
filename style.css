@@ -166,3 +166,12 @@ div {
   justify-content: center;
   align-items: center;
 }
+
+.sign-up.section .blue-banner {
+  border-radius: 25px;
+  border: 2px solid blue;
+  background-color: #3882F6;
+  padding: 20px;
+  width: 1000px;
+  height: 100px;
+}
