@@ -115,3 +115,13 @@ ul {
   width: 200px;
   height: 150px;
 }
+
+.quote.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  flex-wrap: wrap;
+}
