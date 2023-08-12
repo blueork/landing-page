@@ -171,11 +171,19 @@ div {
 
 .sign-up.section .blue-banner {
   border-radius: 25px;
-  border: 2px solid blue;
+  border: 2px solid #3882F6;
   background-color: #3882F6;
+  color: #F9FAF8;
   padding: 20px;
+  padding-right: 80px;
+  padding-left: 80px;
   width: 1000px;
   height: 100px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.blue-banner .container .title {
+  font-weight: bold;
 }
