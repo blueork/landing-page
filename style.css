@@ -160,3 +160,9 @@ ul {
 div {
   word-wrap: break-word;
 }
+
+.sign-up.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
